@@ -1,5 +1,5 @@
 import turtle as t
-tim = t.Turtle() # Sköldpaddan kan döpas till vad som helst
+tim = t.Turtle() # Sköldpaddan kan döpas till vilket variabelnamn som helst
 # tim.hideturtle() # Kan avkommenteras när programmet är klart
 tim.pensize(5.0) # Kan vara vilket tal x som helst, x > 0
 tim.shape("turtle")
