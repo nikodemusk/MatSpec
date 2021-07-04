@@ -7,6 +7,7 @@ tim.shapesize(2.0) # Kan vara vilket tal x som helst, x > 0
 tim.speed(2) # Heltal 0 - 10 (1 - 10 ökande hastighet, 0 är snabbast)
 screen = t.Screen()
 screen.bgcolor("wheat1")
+screen.setup(900, 600) # Screensize WxH, in pixels
 
 def move_to(x, y, mark=False):
     if not mark:
